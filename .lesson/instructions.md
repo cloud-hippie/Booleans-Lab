@@ -1,10 +1,14 @@
 # Booleans
 
-Booleans are used to store true or false values.
+Booleans are a different kind of datatype. Compared to other data types, booleans only have two values
 
-They help to creat boolean expressions which can be evaluated to true or false.
-
-Python evaluates boolean expressions to `True` or `False`.
+```python
+True
+```
+and
+```python
+False
+```
 
 Below a value `is_admin` is assigned to a boolean expression.
 
@@ -14,7 +18,7 @@ is_admin = True
 
 Above, the value for `is_admin` is `True`.
 
-With this value we make a decision if we are an admin or not.
+We can use these values to make decisions in programming though `if` statements.
 
 ```python
 if is_admin:
@@ -57,3 +61,30 @@ The `<` sign returns a boolean value. Here are other boolean operators:
     `<=`: less than or equal to
     `==`: equal to
     `!=`: not equal to
+
+## Getting Started
+
+On the left hand side of your browser, find the `main.py`.
+
+Within this `main.py` file, you will see a function that checks for a vowel
+
+  ```python
+  def contains_letter(word, letter):
+    for l in word:
+        if l == letter:
+            return True
+    return False
+```
+
+The function checks to see if the letter is in the word you give as an argument.
+
+If you click on the checkmark on the right hand side, you can run the tests.
+
+The `test_contains_letter` passes on the bottom of the list of tests. The others do not pass
+
+### Your Mission
+
+Get the tests to pass and then submit it!
+
+Reach out if you need help!
+
